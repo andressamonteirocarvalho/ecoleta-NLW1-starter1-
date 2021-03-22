@@ -75,6 +75,8 @@ Assim que você salvar já vai ver a as modificações no navegador 😉
 
 ![](/public/screenshots/PontosColeta.png)
 
+### Andressa Monteiro
+
 ![Andressa Monteiro](https://avatars.githubusercontent.com/u/72827954?s=460&u=49592ca9b302937d779ce62a16ba9668077fcb89&v=4)
 <br/>
 
