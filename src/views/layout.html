@@ -1,0 +1,36 @@
+<!DOCTYPE html> <!-- Quer dizer que eu estou com meu html 5 pronto para ser usado, ou seja é o inicio do meu documento-->
+<html lang="pt_br"> <!-- tag html -->
+<head>
+    <meta charset="UTF-8"> <!-- Esta tag meta e as demais tags meta servem para configurarmos os metadados do nosso documento html, por exemplo a tag utf8 aceita alguns caracteres especiais-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Esta tag meta serve para configurar o meu site para que ele caiba em telas de diversos tamanhos -->
+
+    {% block title %}
+        <title>Ecoleta</title> <!-- Esta tag dentro do meu head configgura o título da minha pa gina-->
+    {% endblock title %}
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet"><!-- Posso trabalhar como minhas estilazações, elementos html-->
+
+    <link rel="stylesheet" href="./styles/main.css">
+
+    {% block styles %}
+    {% endblock styles %}
+
+    <link rel="stylesheet" href="./styles/responsive.css">
+    
+</head>
+<body>
+
+    <div id="{{ pageId }}">
+        {% block content %}
+        {% endblock content %}
+    </div>
+
+    {% block modal %}
+    {% endblock modal %}
+
+    {% block scripts %}
+    {% endblock scripts %}
+
+</body>
+</html>
+
